@@ -1,0 +1,59 @@
+var howMany = 39
+var quote = new Array(howMany+1)
+
+quote[0]= "She's a lovely person. She deserves a good husband. Marry her before she finds one"
+quote[1]= "Never raise your hands to your kids. It leaves your groin unprotected"
+quote[2]= "Have you ever noticed? Anybody going slower than you is an idiot, and anyone going faster than you is a maniac"
+quote[3]= "I'm desperately trying to figure out why kamikaze pilots wore helmets"
+quote[4]= "Anytime four New Yorkers get into a cab together without arguing, a bank robbery has just taken place"
+quote[5]= "Ever wonder if illiterate people get the full effect of alphabet soup?"
+quote[6]= "Never murder a man when he's busy committing suicide"
+quote[7]= "Never ruin an apology with an excuse"
+quote[8]= "Never argue with a fool. He may be doing the same thing"
+quote[9]= "Age is a very high price to pay for maturity"
+quote[10]= "There is always one more jerk than you counted on"
+quote[11]= "You can't tell which way the train went by looking at the track"
+quote[12]= "This is as bad as it can get, but don't bet on it"
+quote[13]= "Sometimes too much to drink isn't enough"
+quote[14]= "The facts, though interesting, are irrelevant"
+quote[15]= "The world gets a little better each day ....and worse in the evening"
+quote[16]= "Someone who thinks logically is a nice contrast to the real world"
+quote[17]= "Things are more like they are today than they have ever been before"
+quote[18]= "Friends may come and friends may go, but enemies accumulate"
+quote[19]= "It's hard to be nostalgic when you can't remember anything"
+quote[20]= "I have seen the truth and it makes no sense"
+quote[21]= "Suicide is the most sincere form of self- criticism"
+quote[22]= "If you think there is good in everybody you haven't met somebody"
+quote[23]= "If you can smile when things go wrong, you must have someone in  mind to blame"
+quote[24]= "One seventh of your life is spent on Monday"
+quote[25]= "The more you run over a dead squirrel the flatter it gets"
+quote[26]= "Life is what happens when you are making other plans"
+quote[27]= "It takes about ten years to get used to how old you are"
+quote[28]= "I married the first man I ever kissed. When I tell this to my children they just about throw up"
+quote[29]= "A successful marriage requires falling in love many times, always with the same person"
+quote[30]= "Home--the place where, when you have to go there, they have to let you in"
+quote[31]= "Teenagers are God's punishment for enjoying sex"
+quote[32]= "All happy families resemble one another, but each unhappy family is unhappy in its own way"
+quote[33]= "Men marry because they are tired; women, because they are curious; both are disappointed"
+quote[34]= "Any intelligent woman who reads the marriage contract and then goes into it, deserves all the consequences"
+quote[35]= "What do your mom and dad have in common? Both don't want no more kids"
+quote[36]= "The first half of our life is ruined by our parents and the second half by our children"
+quote[37]= "A man is incomplete until he is married. After that, he is finished"
+quote[38]= "All the desirable things in life are either illegal, expensive, fattening or in love with someone else"
+quote[39]= "When a man steals your wife, there is no better revenge than to let him keep her"
+
+function rndnumber(){
+		var randscript = -1
+		while (randscript < 0 || randscript > howMany || isNaN(randscript)){
+		randscript = parseInt(Math.random()*(howMany+1))
+
+					}
+		return randscript
+					}
+
+		quo = rndnumber()
+		quox = quote[quo]
+
+function quotes() 	{
+		document.write(quox);
+					}
